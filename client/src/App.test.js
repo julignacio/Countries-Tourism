@@ -22,7 +22,7 @@ describe("App", () => {
   beforeEach(() => {
     store = mockStore([]);
   }).catch(err => {
-    console.log(err
+    console.log(err)
   });
   describe("El componente Nav debe renderizar en todas las rutas.", () => {
     it('Debería renderizarse en la ruta "/"', () => {
